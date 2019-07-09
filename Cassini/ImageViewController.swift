@@ -27,7 +27,7 @@ class ImageViewController: UIViewController, UIScrollViewDelegate {
             scrollView.delegate = self
         }
     }
-    
+
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         if imageView.image == nil {
@@ -51,6 +51,8 @@ class ImageViewController: UIViewController, UIScrollViewDelegate {
             let urlContents = try? Data(contentsOf: url)
             if let imageData = urlContents {
                 imageView.image = UIImage(data: imageData)
+                //to load the image directly from the assets
+                //imageView.image = UIImage(named: "myImage3")!
             }
         }
     }
