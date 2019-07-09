@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../../myImage3.jpg">
+   </FileRef>
+   <FileRef
+      location = "group:../../myImage2.jpg">
+   </FileRef>
+   <FileRef
+      location = "group:../../myImage.jpg">
+   </FileRef>
+   <FileRef
       location = "self:Cassini.xcodeproj">
    </FileRef>
 </Workspace>
