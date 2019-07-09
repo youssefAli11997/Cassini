@@ -13,6 +13,7 @@
 		EB009B3F22D493560053C784 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB009B3E22D493560053C784 /* ImageViewController.swift */; };
 		EB009B4722D4AE6C0053C784 /* myImage3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB009B4622D4AE6C0053C784 /* myImage3.jpg */; };
 		EB009B4922D4B76A0053C784 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB009B4822D4B76A0053C784 /* Images.xcassets */; };
+		EB009B4B22D4CFE10053C784 /* CassiniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB009B4A22D4CFE10053C784 /* CassiniViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EB009B3E22D493560053C784 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		EB009B4622D4AE6C0053C784 /* myImage3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = myImage3.jpg; path = ../../myImage3.jpg; sourceTree = "<group>"; };
 		EB009B4822D4B76A0053C784 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EB009B4A22D4CFE10053C784 /* CassiniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassiniViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				EB009B4622D4AE6C0053C784 /* myImage3.jpg */,
 				EB009B3E22D493560053C784 /* ImageViewController.swift */,
 				EB009B2F22D48FD60053C784 /* Main.storyboard */,
+				EB009B4A22D4CFE10053C784 /* CassiniViewController.swift */,
 				EB009B3722D48FD70053C784 /* Info.plist */,
 				EB009B3D22D492D10053C784 /* Supporting Files */,
 			);
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB009B3F22D493560053C784 /* ImageViewController.swift in Sources */,
+				EB009B4B22D4CFE10053C784 /* CassiniViewController.swift in Sources */,
 				EB009B2C22D48FD60053C784 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
