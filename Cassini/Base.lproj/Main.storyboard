@@ -83,6 +83,10 @@
                                     <constraint firstItem="rP7-Lc-dlq" firstAttribute="trailing" secondItem="W6p-x7-Qvs" secondAttribute="trailing" id="ncR-xu-cUK"/>
                                 </constraints>
                             </scrollView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="VcM-S7-4ZV">
+                                <rect key="frame" x="169" y="414.66666666666669" width="37" height="37"/>
+                                <color key="color" red="0.12549019610000001" green="0.45098039220000002" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -90,12 +94,15 @@
                             <constraint firstItem="W6p-x7-Qvs" firstAttribute="leading" secondItem="3Vs-Nq-lu4" secondAttribute="leading" id="Dhv-ob-Fuh"/>
                             <constraint firstItem="W6p-x7-Qvs" firstAttribute="top" secondItem="3Vs-Nq-lu4" secondAttribute="top" id="Qs4-0E-cl3"/>
                             <constraint firstAttribute="bottom" secondItem="W6p-x7-Qvs" secondAttribute="bottom" id="Z2R-km-nZm"/>
+                            <constraint firstItem="VcM-S7-4ZV" firstAttribute="centerX" secondItem="pJ9-JW-nJt" secondAttribute="centerX" id="gqZ-2v-fKb"/>
+                            <constraint firstItem="VcM-S7-4ZV" firstAttribute="centerY" secondItem="pJ9-JW-nJt" secondAttribute="centerY" id="jTQ-xh-d3i"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="pJ9-JW-nJt"/>
                     </view>
                     <connections>
                         <outlet property="imageView" destination="rP7-Lc-dlq" id="36O-yM-lcV"/>
                         <outlet property="scrollView" destination="W6p-x7-Qvs" id="kCk-Dd-MOL"/>
+                        <outlet property="spinner" destination="VcM-S7-4ZV" id="VzB-0c-ym8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cdw-fD-iz1" userLabel="First Responder" sceneMemberID="firstResponder"/>
