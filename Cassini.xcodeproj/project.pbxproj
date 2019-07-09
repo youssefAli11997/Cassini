@@ -14,6 +14,9 @@
 		EB009B4722D4AE6C0053C784 /* myImage3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB009B4622D4AE6C0053C784 /* myImage3.jpg */; };
 		EB009B4922D4B76A0053C784 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB009B4822D4B76A0053C784 /* Images.xcassets */; };
 		EB009B4B22D4CFE10053C784 /* CassiniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB009B4A22D4CFE10053C784 /* CassiniViewController.swift */; };
+		EB009B4F22D4D3140053C784 /* earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB009B4C22D4D3140053C784 /* earth.jpg */; };
+		EB009B5022D4D3140053C784 /* saturn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB009B4D22D4D3140053C784 /* saturn.jpg */; };
+		EB009B5122D4D3140053C784 /* cassini.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB009B4E22D4D3140053C784 /* cassini.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		EB009B4622D4AE6C0053C784 /* myImage3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = myImage3.jpg; path = ../../myImage3.jpg; sourceTree = "<group>"; };
 		EB009B4822D4B76A0053C784 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EB009B4A22D4CFE10053C784 /* CassiniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassiniViewController.swift; sourceTree = "<group>"; };
+		EB009B4C22D4D3140053C784 /* earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = earth.jpg; path = ../../earth.jpg; sourceTree = "<group>"; };
+		EB009B4D22D4D3140053C784 /* saturn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = saturn.jpg; path = ../../saturn.jpg; sourceTree = "<group>"; };
+		EB009B4E22D4D3140053C784 /* cassini.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cassini.jpg; path = ../../cassini.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +64,13 @@
 		EB009B2A22D48FD60053C784 /* Cassini */ = {
 			isa = PBXGroup;
 			children = (
-				EB009B4622D4AE6C0053C784 /* myImage3.jpg */,
 				EB009B3E22D493560053C784 /* ImageViewController.swift */,
-				EB009B2F22D48FD60053C784 /* Main.storyboard */,
 				EB009B4A22D4CFE10053C784 /* CassiniViewController.swift */,
+				EB009B2F22D48FD60053C784 /* Main.storyboard */,
+				EB009B4E22D4D3140053C784 /* cassini.jpg */,
+				EB009B4C22D4D3140053C784 /* earth.jpg */,
+				EB009B4D22D4D3140053C784 /* saturn.jpg */,
+				EB009B4622D4AE6C0053C784 /* myImage3.jpg */,
 				EB009B3722D48FD70053C784 /* Info.plist */,
 				EB009B3D22D492D10053C784 /* Supporting Files */,
 			);
@@ -137,9 +146,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB009B4722D4AE6C0053C784 /* myImage3.jpg in Resources */,
+				EB009B4F22D4D3140053C784 /* earth.jpg in Resources */,
 				EB009B4922D4B76A0053C784 /* Images.xcassets in Resources */,
 				EB009B3622D48FD70053C784 /* LaunchScreen.storyboard in Resources */,
+				EB009B5022D4D3140053C784 /* saturn.jpg in Resources */,
 				EB009B3122D48FD60053C784 /* Main.storyboard in Resources */,
+				EB009B5122D4D3140053C784 /* cassini.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

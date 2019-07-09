@@ -12,7 +12,7 @@ class ImageViewController: UIViewController, UIScrollViewDelegate {
 
     var imageURL: URL? {
         didSet {
-            imageView.image = nil
+            //imageView.image = nil
             if view.window != nil {
                 fetchImage()
             }
@@ -37,9 +37,6 @@ class ImageViewController: UIViewController, UIScrollViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if imageURL == nil {
-            imageURL = Bundle.main.url(forResource: "myImage3", withExtension: "jpg")
-        }
     }
     
     func viewForZooming(in scrollView: UIScrollView) -> UIView? {
@@ -48,11 +45,15 @@ class ImageViewController: UIViewController, UIScrollViewDelegate {
  
     func fetchImage() {
         if let url = imageURL {
-            let urlContents = try? Data(contentsOf: url)
-            if let imageData = urlContents {
-                imageView.image = UIImage(data: imageData)
-                //to load the image directly from the assets
-                //imageView.image = UIImage(named: "myImage3")!
+            DispatchQueue.global(qos: .userInitiated).async { [weak self] in
+                let urlContents = try? Data(contentsOf: url)
+                DispatchQueue.main.async {
+                    if let imageData = urlContents, url == self?.imageURL {
+                        self?.imageView.image = UIImage(data: imageData)
+                        //to load the image directly from the assets
+                        //imageView.image = UIImage(named: "myImage3")!
+                    }
+                }
             }
         }
     }
