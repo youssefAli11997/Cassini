@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		EB009B2C22D48FD60053C784 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB009B2B22D48FD60053C784 /* AppDelegate.swift */; };
-		EB009B2E22D48FD60053C784 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB009B2D22D48FD60053C784 /* ViewController.swift */; };
 		EB009B3122D48FD60053C784 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB009B2F22D48FD60053C784 /* Main.storyboard */; };
 		EB009B3322D48FD70053C784 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB009B3222D48FD70053C784 /* Assets.xcassets */; };
 		EB009B3622D48FD70053C784 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB009B3422D48FD70053C784 /* LaunchScreen.storyboard */; };
+		EB009B3F22D493560053C784 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB009B3E22D493560053C784 /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EB009B2822D48FD60053C784 /* Cassini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cassini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB009B2B22D48FD60053C784 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EB009B2D22D48FD60053C784 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EB009B3022D48FD60053C784 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB009B3222D48FD70053C784 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB009B3522D48FD70053C784 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB009B3722D48FD70053C784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB009B3E22D493560053C784 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +54,22 @@
 		EB009B2A22D48FD60053C784 /* Cassini */ = {
 			isa = PBXGroup;
 			children = (
-				EB009B2B22D48FD60053C784 /* AppDelegate.swift */,
-				EB009B2D22D48FD60053C784 /* ViewController.swift */,
+				EB009B3E22D493560053C784 /* ImageViewController.swift */,
 				EB009B2F22D48FD60053C784 /* Main.storyboard */,
-				EB009B3222D48FD70053C784 /* Assets.xcassets */,
-				EB009B3422D48FD70053C784 /* LaunchScreen.storyboard */,
 				EB009B3722D48FD70053C784 /* Info.plist */,
+				EB009B3D22D492D10053C784 /* Supporting Files */,
 			);
 			path = Cassini;
+			sourceTree = "<group>";
+		};
+		EB009B3D22D492D10053C784 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB009B2B22D48FD60053C784 /* AppDelegate.swift */,
+				EB009B3222D48FD70053C784 /* Assets.xcassets */,
+				EB009B3422D48FD70053C784 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB009B2E22D48FD60053C784 /* ViewController.swift in Sources */,
+				EB009B3F22D493560053C784 /* ImageViewController.swift in Sources */,
 				EB009B2C22D48FD60053C784 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
